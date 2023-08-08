@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="num">
+                <span class="current"></span>
+                of <span class="total"></span> Question
+            </span>
+            <span class="time"></span>
+        </header>
+        <div class="quiz-body">
+            <h3 id="question"></h3>
+            <button class="answer" data-range="1"></button>
+            <button class="answer" data-range="2"></button>
+            <button class="answer" data-range="3"></button>
+        </div>
+        <button id="next">Next</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
